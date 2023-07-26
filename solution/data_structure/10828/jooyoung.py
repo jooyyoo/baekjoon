@@ -17,13 +17,16 @@ for i in range(N):
             print(stack[-1])
         else:
             print(-1)
+
     elif todo == "size":
         print(len(stack))
+
     elif todo == "empty":
         if len(stack) > 0:
             print(0)
         else:
             print(1)
+
     elif todo == "pop":
         if len(stack) > 0:
             print(stack.pop())
