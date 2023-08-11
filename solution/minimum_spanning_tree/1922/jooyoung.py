@@ -17,3 +17,4 @@ connect_stack.sort(key=lambda x: x[-1])
 for i in range(M):
     #부모 노드 확인
     if parent[connect_stack[0][0]] != parent[connect_stack[0][1]]:
+        pass
